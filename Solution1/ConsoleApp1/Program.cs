@@ -3,3 +3,9 @@
 Console.WriteLine("Hello, World!");
 
 Console.WriteLine("mod");
+
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine(i);
+}
+
