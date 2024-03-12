@@ -14,15 +14,15 @@ for (int i = 0; i < 10; i++)
 
     static int FindMax(int[] arr)
     {
-        int maxx = arr[0];
+        int mmaxx = arr[0];
         for (int i = 1; i < arr.Length; i++)
         {
-            if (arr[i]>maxx)
+            if (arr[i]>mmaxx)
             {
-                maxx = arr[i];
+                mmaxx = arr[i];
             }
         }
-        return maxx;
+        return mmaxx;
     }
     
     
