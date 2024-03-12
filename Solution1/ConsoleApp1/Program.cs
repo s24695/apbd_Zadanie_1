@@ -10,3 +10,24 @@ for (int i = 0; i < 10; i++)
     
 }
 // commit on branch
+
+
+    static int FindMax(int[] arr)
+    {
+        int max = arr[0];
+        for (int i = 1; i < arr.Length; i++)
+        {
+            if (arr[i]>max)
+            {
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+    
+    
+        int[] numbers = { 1, 5, 3, 8, 2, 7 };
+        int maxValue = FindMax(numbers);
+        Console.WriteLine("Max: " + maxValue);
+    
+
